@@ -52,7 +52,6 @@ YOLOv10 기반의 객체 탐지 모델을 학습하는 설정 및 실행 스크�
 **data.yaml**
 → 학습 및 검증 이미지 경로, 클래스 수(nc), 클래스 이름(names)을 지정하는 설정 파일입니다.
 
----
 
 ## ⚙️ 환경 세팅 및 설치
 이 프로젝트는 [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) 저장소 기반으로 YOLO 모델 학습 및 추론을 진행합니다.
@@ -63,28 +62,21 @@ pip install ultralytics
 
 
 ## ⚙️ 실행 방법 (Usage)
-1) 데이터 증강(예: HSV 색상 증강)
+
 ```bash
+# 1) 데이터 증강 (예: HSV 색상 증강)
 python data_augmentation/color.py
-```
 
-2) 모델 학습
-```bash
+# 2) 모델 학습
 python training/train.py
-```
 
-3) 추론 및 시각화
-```bash
+# 3) 추론 및 시각화
 python evaluation/test.py
-```
 
-4) 성능 측정 (FPS)
-```bash
+# 4) 성능 측정 (FPS)
 python evaluation/fps.py
-```
 
-5) 정량 평가 및 요약
-```bash
+# 5) 정량 평가 및 요약
 python evaluation/result.py
 ```
 
