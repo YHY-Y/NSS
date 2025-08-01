@@ -16,6 +16,7 @@ YOLO 학습을 위한 데이터 다양성 확보 목적으로 사용되며, 다�
 
 **salt_paper.py**
 → 무작위 픽셀을 흰색(255) 또는 검정색(0)으로 설정하는 Salt & Pepper 노이즈를 추가합니다.
+
 ---
 
 **blur.py**
@@ -51,6 +52,7 @@ YOLOv10 기반의 객체 탐지 모델을 학습하는 설정 및 실행 스크�
 **data.yaml**
 → 학습 및 검증 이미지 경로, 클래스 수(nc), 클래스 이름(names)을 지정하는 설정 파일입니다.
 
+---
 
 ## ⚙️ 환경 세팅 및 설치
 이 프로젝트는 [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) 저장소 기반으로 YOLO 모델 학습 및 추론을 진행합니다.
