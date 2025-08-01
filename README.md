@@ -1,4 +1,5 @@
 # YOLO 기반 객체 탐지 파이프라인
+*YOLO-based Object Detection Pipeline*
 
 ## 프로젝트 개요 (Overview)
 이 소프트웨어는 YOLO 기반 객체 탐지 모델의 학습, 성능 평가, 데이터 증강을 위한 전체 파이프라인을 포함합니다.
