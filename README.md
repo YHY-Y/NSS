@@ -4,7 +4,7 @@
 ## 프로젝트 개요 (Overview)
 이 소프트웨어는 YOLO 기반 객체 탐지 모델의 학습, 성능 평가, 데이터 증강을 위한 전체 파이프라인을 포함합니다.
 
-## 📄 코드 설명
+##  코드 설명
 ### 📁 `data_augmentation/` – 데이터 증강 스크립트
 YOLO 학습을 위한 데이터 다양성 확보 목적으로 사용되며, 다양한 변형 기법을 이미지에 적용합니다.
 
@@ -54,7 +54,7 @@ YOLOv10 기반의 객체 탐지 모델을 학습하는 설정 및 실행 스크�
 → 학습 및 검증 이미지 경로, 클래스 수(nc), 클래스 이름(names)을 지정하는 설정 파일입니다.
 
 
-## ⚙️ 환경 세팅 및 설치
+##  환경 세팅 및 설치
 이 프로젝트는 [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) 저장소 기반으로 YOLO 모델 학습 및 추론을 진행합니다.
 YOLOv8~11 버전이 포함된 공식 라이브러리 설치 후 실행하면 됩니다.
 ```bash
@@ -62,7 +62,7 @@ pip install ultralytics
 ```
 
 
-## ⚙️ 실행 방법 (Usage)
+##  실행 방법 (Usage)
 
 ```bash
 # 1) 데이터 증강 (예: HSV 색상 증강)
@@ -82,7 +82,7 @@ python evaluation/result.py
 ```
 
 
-## 📝 참고 사항
+##  참고 사항
 GT 파일은 CVAT XML 형식을 기반으로 평가됩니다.
 이미지 경로 구조는 train/noise, val/noise 기준으로 고정되어 있어야 합니다.
 추론 결과는 log, output 디렉토리에 자동 저장됩니다.
